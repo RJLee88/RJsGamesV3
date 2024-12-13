@@ -1,2 +1,2 @@
-# antithesis
-Site with comics, games, music,  and a soundboard. (WIP as of November 28 2024)
+# RJsGamesV3
+New and approved site from RJsGamesV2. (WIP as of Dec 13)
