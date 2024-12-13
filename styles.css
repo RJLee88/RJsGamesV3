@@ -1,0 +1,36 @@
+p {
+  color: white;
+  font-family: courier;
+}
+h1 {
+  color: white;
+  font-family: serif;
+}
+body {
+  background-color: #151B23;
+}
+button {
+  background-color: #808080;
+  border-color: black;
+  color: black;
+  font-family: courier;
+  text-align: center;
+  transition-duration: 0.4ms
+  padding: 15px 32px
+  
+}
+button.hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline white;
+}
+.games {
+  button {
+  width: 33%
+  }
+}
+.button-last {
+  button {
+    width: 50%
+}
+}

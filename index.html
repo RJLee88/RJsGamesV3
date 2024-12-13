@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Polarized </title>
+    <link rel="stylesheet" href=styles.css>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/b/b4/Color_icon_purple_v2.svg">
+    <script>
+      function create() {
+            var url = document.getElementById('input').value;
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+            document.getElementById("id").innerHTML = "Cloaking complete. I mean, maybe you can cloak something else?";
+
+        }
+        </script>
+  </head>
+  <body>
+    <h1> Polarized </h1>
+    <p id="ego"> For you BASE people that say you're the maker of this site, no you're not.
+    <hr>
+    <button><a href=activities.html> Games </a></button>
+    <button><a href="https://cobalt-requiem.github.io/EmulatorJS/index.html"> Emulator </a></button>
+    <button><a href=echo/soundboard/index.html> Soundboard </a></button>
+    <button><a href=chat.html> Discord Alternative </a></button>
+    <br>
+    <br>
+    <hr>
+        <input type="text" value="https://cobalt-requiem.github.io/antithesis" placeholder="https://cobalt-requiem.github.io/antithesis" id='input' autofocus>
+        <button onclick='create()'>Cloak!</button>
+      <br>
+      <p id="id">Cloaker</p>
+     <hr>
+     <p> Should I put a disclaimer here, or just be toxic? I don't really know, but here's my <a href="https://github.com/cobalt-requiem">github profile.</a> Admins, eat your heart out.</p>
+  </body>
+</html>
