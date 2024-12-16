@@ -10,14 +10,14 @@ body {
   background-color: #151B23;
 }
 button {
-  background-color: #808080;
-  border-color: black;
-  color: black;
-  font-family: courier;
-  text-align: center;
-  transition-duration: 0.4ms
-  padding: 15px 32px
-  
+    background-color: rgba(255,255,255,0.3);
+    color: #232f42;
+    border: 2.5px solid #6186c2;
+    border-radius: 10px;
+	padding: 5px 13px;
+    margin-bottom: 6px;
+    transition-duration: 0.45s;
+    animation: fadeIn ease-out 0.8s;
 }
 button.hover {
   background-color: white;
