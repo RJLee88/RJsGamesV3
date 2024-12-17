@@ -7,18 +7,17 @@ h1 {
   font-family: serif;
 }
 body {
-  background: rgb(6,0,101);
-background: linear-gradient(90deg, rgba(6,0,101,1) 0%, rgba(148,0,0,1) 100%);
+  background-color: #151B23;
 }
 button {
-    background-color: rgba(255,255,255,0.3);
-    color: #232f42;
-    border: 2.5px solid #6186c2;
-    border-radius: 10px;
-	padding: 5px 13px;
-    margin-bottom: 6px;
-    transition-duration: 0.45s;
-    animation: fadeIn ease-out 0.8s;
+  background-color: #808080;
+  border-color: black;
+  color: black;
+  font-family: courier;
+  text-align: center;
+  transition-duration: 0.4ms
+  padding: 15px 32px
+  
 }
 button.hover {
   background-color: white;
@@ -34,21 +33,4 @@ button.hover {
   button {
     width: 50%
 }
-}
-/* Grow */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
 }
